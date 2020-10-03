@@ -42,7 +42,7 @@
         width: calc(100% - 62%);
     }
     .username > input {
-        height: 50%;
+        height: 30px;
         border-color: black;
     }
     .password{
@@ -52,7 +52,7 @@
         align-items:center;
     }  
     .password > input {
-        height: 50%;
+        height: 30px;
         border-color: black;
         margin-left: calc(100% - 88.5%);
     }
@@ -61,25 +61,27 @@
         width: calc(100% - 86%);
         margin-right: calc(100% - 98.5%);
         border-radius: 13px;
+        
     }
     </style>
 </head>
 <body>
     <div id='header'>
     <img id='logo' src='Logo.png'>
+
     <font>Teaching Schedule</font>
     </div>
     <div id='content'>
-    <h2>CS CMU Teaching Schedule</h2>
-    <div class='username'>
-    <h3>Username</h3><input>
-    <h3>@cmu.ac.th</h3>
+        <h2>CS CMU Teaching Schedule</h2>
+        <div class='username'>
+        <h3>Username</h3><input>
+        <h3>@cmu.ac.th</h3>
     </div>
     <div class='password'>
-    <h3>Password</h3>
-    <input>
-    </div>
-    <button><h2>Sign in</h2></button>
+        <h3>Password</h3>
+        <input>
+        </div>
+        <button><h2>Sign in</h2></button>
     </div>
 </body>
 </html>

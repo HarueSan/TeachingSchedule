@@ -38,11 +38,14 @@
 </head>
 <body>
     <div id='header'>
-    <img id='logo' src='Logo.png'>
-    <font>Teaching Schedule</font>
+        <img id='logo' src='Logo.png'>
+        <font>Teaching Schedule</font>
+        <img src = "Login Icon.png" 
+        style ="position: absolute ;right:150px; width: 51px;" >
     </div>
     <div id='content'>
-    <h2>CS CMU Teaching Schedule</h2>
-
+        <img src = "Index_BG.png" style="width: 100%; height: fit-content;"> 
+    </div>
+    
 </body>
 </html>
