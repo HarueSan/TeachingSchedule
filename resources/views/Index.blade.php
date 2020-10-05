@@ -16,7 +16,7 @@
         font-variant: normal; 
     }
     #logo {
-        width: calc(100% - 96%);
+        
     }
     #header{
         display: flex;
@@ -38,10 +38,14 @@
 </head>
 <body>
     <div id='header'>
-        <img id='logo' src='Logo.png'>
-        <font>Teaching Schedule</font>
+        <a href = 'main'>
+            <img id='logo' src='Logo.png' style = "height: 51.2px;">
+        </a>    
+            <font>Teaching Schedule</font>
+        
+        <a href = 'login'>
         <img src = "Login Icon.png" 
-        style ="position: absolute ;right:150px; width: 51px;" >
+        style ="position: absolute ;right:260px; width: 51px;" ></a>
     </div>
     <div id='content'>
         <img src = "Index_BG.png" style="width: 100%; height: fit-content;"> 

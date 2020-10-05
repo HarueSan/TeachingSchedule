@@ -16,7 +16,7 @@
         font-variant: normal; 
     }
     #logo {
-        width: calc(100% - 96%);
+    
     }
     #header{
         display: flex;
@@ -67,8 +67,9 @@
 </head>
 <body>
     <div id='header'>
-    <img id='logo' src='Logo.png'>
-
+        <a href = "main">    
+            <img id='logo' src='Logo.png' style = 'height :51.2px;'>
+        </a>
     <font>Teaching Schedule</font>
     </div>
     <div id='content'>
