@@ -66,20 +66,20 @@
 </head>
 <body>
     <div id='header'>
-    <img id='logo' src='Logo.png'>
-    <font>Teaching Schedule</font>
+        <img id='logo' src='Logo.png'>
+        <font>Teaching Schedule</font>
     </div>
     <div id='content'>
-    <h2>CS CMU Teaching Schedule</h2>
-    <div class='username'>
-    <h3>Username</h3><input>
-    <h3>@cmu.ac.th</h3>
-    </div>
-    <div class='password'>
-    <h3>Password</h3>
-    <input>
-    </div>
-    <button><h2>Sign in</h2></button>
+        <h2>CS CMU Teaching Schedule</h2>
+        <div class='username'>
+            <h3>Username</h3><input>
+            <h3>@cmu.ac.th</h3>
+        </div>
+        <div class='password'>
+            <h3>Password</h3>
+            <input>
+        </div>
+        <button><h2>Sign in</h2></button>
     </div>
 </body>
 </html>
