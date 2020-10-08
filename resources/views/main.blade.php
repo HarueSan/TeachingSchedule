@@ -34,6 +34,50 @@
         align-items: center;
         margin-top: calc(100% - 97%);
     }
+    .subjectID{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        width: calc(100% - 65%);
+        align-items:center;
+    }
+
+    .subjectID > select{
+        height: 30px;
+        border-color: black;
+        margin-left : calc(100%-62%);
+    }
+    .section{
+        display:flex;
+        flex-direction:row;
+        width: calc(100% - 65%);
+        align-items:center;
+        justify-content: center;
+    }
+    .section>select{
+        height: 30px;
+        border-color: black;
+    }
+    .year{
+        display:flex;
+        flex-direction:row;
+        width: calc(100% - 65%);
+        align-items:center;
+        justify-content: center;
+    }
+    
+    .year>select{
+        height: 30px;
+        border-color: black;
+    }
+    button{
+        background-color: #FFC452;
+        width: calc(100% - 86%);
+        margin-right: calc(100% - 98.5%);
+        border-radius: 13px;
+    }
+    
+
     </style>
 </head>
 <body>
@@ -47,11 +91,31 @@
         style ="position: absolute ;right:260px; width: 51px;" ></a>
         
         <font style = 'padding-left:590px;'> Officer </font>
+    </div>
+    
+    <div id = 'content'>
+        <h2> เพิ่มกระบวนวิชา</h2>
 
+        <div class = 'subjectID'>
+            <h3> รหัสวิชา   </h3><select> 
+            <option>  subject1 </option>
+            </select>
+        </div>
+    
+        <div class = 'section'>
+            <h3> จำนวนตอน </h3></h3><select> 
+            <option>  subject1 </option>
+            </select>
+        </div>
+        <div class = year>
+            <h3> ปีการศึกษา </h3><select> 
+            <option>  subject1 </option>
+            </select>
+            </div>
+            <button> <h2>ยืนยัน</h2> </button> 
     </div>
-    <div id='content'>
-        <img src = "Index_BG.png" style="width: 100%; height: fit-content;"> 
-    </div>
+
+    
     
 </body>
 </html>

@@ -70,7 +70,7 @@
         <a href = "main">    
             <img id='logo' src='Logo.png' style = 'height :51.2px;'>
         </a>
-    <font>Teaching Schedule</font>
+        <font>Teaching Schedule</font>
     </div>
     <div id='content'>
         <h2>CS CMU Teaching Schedule</h2>
