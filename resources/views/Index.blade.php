@@ -94,14 +94,19 @@
     </div>
 
     <table border = '2' bordercorlor = 'black' width = '60%' hight = '50%' align = 'center' >
-    <tr>  <th> รหัสวิชา </th> <th> ชื่อวิชา </th> </tr>
     
+    <tr>  <th> รหัสวิชา </th> <th> ชื่อวิชา </th> </tr>
+
     <tr>   <td> 0001 </td>  <td>  SE  </td>  
     <td> <button class = 'button_3'> แก้ไข </button> </td> 
     <td> <button class = 'button_4'>  ลบ </button> </td> 
     </tr>
 
-    <tr>    <td> 0002 </td> <td>  SA  </td> </tr>
+    <tr>    <td> 0002 </td> <td>  SA  </td> 
+    <td> <button class = 'button_3'> แก้ไข </button> </td> 
+    <td> <button class = 'button_4'>  ลบ </button> </td> 
+    </tr>
+    
     <table>
     
 
