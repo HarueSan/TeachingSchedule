@@ -19,7 +19,7 @@
             </div>
             <div class="col"> 
                 <div class="row" style="margin-left:15%">  
-                    <div> <h1>จัดการกระบวนวิชา</h1>  </div>
+                    <div> <h1>เลือกกระบวนวิชาที่ต้องการสอน</h1>  </div>
                 </div>
                 <div class="row">   
                 <!--  ค้นหา  -->
@@ -33,8 +33,6 @@
                     </div>	
                     <div class="col-6">   
                         <button type="button" class="btn btn-warning">ค้นหา</button> 
-                        <button type="button" class="btn btn-warning" 
-                        style="margin-left: 30px;">เพิ่ม</button>
                     </div>
                 </div>
                 <div class="row">  <!--ตาราง  -->
@@ -45,8 +43,7 @@
                                         <tr>
                                             <th scope="col">รหัสวิชา</th>
                                             <th scope="col-2">ชื่อวิชา</th>
-                                            <th scope="col"></th>
-                                            <th scope="col"></th>
+                                            <th scope="col">เลือก</th>
                                         </tr>
                                     </thead>
                                 
@@ -54,22 +51,22 @@
                                             <tr class="bg-light">
                                                 <th scope="row">201110</th>
                                                 <td>Intergrated Math Sc</td>
-                                                <td><button type="button" class="btn btn-primary" >แก้ไข</button></td>
-                                                <td><button type="button" class="btn btn-primary" >ลบ</button></td>
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+                                            
                                             </tr>
 
                                             <tr class="bg-light">
                                                 <th scope="row">204100</th>
                                                 <td> IT And Modern Life  </td>
-                                                <td><button type="button" class="btn btn-primary" >แก้ไข</button></td>
-                                                <td><button type="button" class="btn btn-primary" >ลบ</button></td>
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+                                                
                                             </tr>
 
                                             <tr class="bg-light">
                                                 <th scope="row">204216</th>
                                                 <td>C Programming</td>
-                                                <td><button type="button" class="btn btn-primary" >แก้ไข</button></td>
-                                                <td><button type="button" class="btn btn-primary" >ลบ</button></td>
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+                                                
                                             </tr>
                                     </tbody>
                                 

@@ -24,3 +24,15 @@ Route::get('/login', function(){
 Route::get('/main', function(){
     return view('main');
 });
+
+Route::get('/select', function(){
+    return view('select');
+});
+
+Route::get('/menu_bar', function(){
+    return view('menu_bar');
+});
+
+Route::get('/nav_bar', function(){
+    return view('nav_bar');
+});
