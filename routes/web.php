@@ -21,8 +21,8 @@ Route::get('/login', function(){
     return view('login');
 });
 
-Route::get('/main', function(){
-    return view('main');
+Route::get('/add', function(){
+    return view('add');
 });
 
 Route::get('/select', function(){

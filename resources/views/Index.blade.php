@@ -10,6 +10,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
 
+    <style>
+    button{
+        width:6vw;
+    }
+    
+    
+    </style>
 </head>
 <body>
     <div class="container">   
@@ -69,6 +76,27 @@
                                                 <th scope="row">204216</th>
                                                 <td>C Programming</td>
                                                 <td><button type="button" class="btn btn-primary" >แก้ไข</button></td>
+                                                <td><button type="button" class="btn btn-primary" >ลบ</button></td>
+                                            </tr>
+
+                                            <tr class="bg-light">
+                                                <th scope="row">204251</th>
+                                                <td>Data Structure</td>
+                                                <td><button type="button" class="btn btn-primary" >แก้ไข</button></td>
+                                                <td><button type="button" class="btn btn-primary" >ลบ</button></td>
+                                            </tr>
+
+                                            <tr class="bg-light">
+                                                <th scope="row">204341</th>
+                                                <td>Operating System</td>
+                                                <td><button type="button" class="btn btn-primary" >แก้ไข</button></td>
+                                                <td><button type="button" class="btn btn-primary" >ลบ</button></td>
+                                            </tr>
+
+                                            <tr class="bg-light">
+                                                <th scope="row">204453</th>
+                                                <td>Pattern Recognition</td>
+                                                <td><button type="button" class="btn btn-primary">แก้ไข</button></td>
                                                 <td><button type="button" class="btn btn-primary" >ลบ</button></td>
                                             </tr>
                                     </tbody>

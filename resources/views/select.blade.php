@@ -9,7 +9,11 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
-
+    <style>
+    button{
+        width:7vw;
+    }
+    </style>
 </head>
 <body>
     <div class="container">   
@@ -51,21 +55,48 @@
                                             <tr class="bg-light">
                                                 <th scope="row">201110</th>
                                                 <td>Intergrated Math Sc</td>
-                                                <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                style="-webkit-transform: scale(6,2); "></td>
                                             
                                             </tr>
 
                                             <tr class="bg-light">
                                                 <th scope="row">204100</th>
                                                 <td> IT And Modern Life  </td>
-                                                <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                style="-webkit-transform: scale(6,2); "></td>
                                                 
                                             </tr>
 
                                             <tr class="bg-light">
                                                 <th scope="row">204216</th>
                                                 <td>C Programming</td>
-                                                <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                style="-webkit-transform: scale(6,2); "></td>
+                                                
+                                            </tr>
+
+                                            <tr class="bg-light">
+                                                <th scope="row">204251</th>
+                                                <td>Data Structure</td>
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                style="-webkit-transform: scale(6,2); "></td>
+                                                
+                                            </tr>
+
+                                            <tr class="bg-light">
+                                                <th scope="row">204341</th>
+                                                <td>Operating System</td>
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                style="-webkit-transform: scale(6,2); "></td>
+                                                
+                                            </tr>
+
+                                            <tr class="bg-light">
+                                                <th scope="row">204453</th>
+                                                <td>Pattern Recognition</td>
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                style="-webkit-transform: scale(6,2); "></td>
                                                 
                                             </tr>
                                     </tbody>
@@ -82,6 +113,11 @@
                                     <li class="page-item"><a class="page-link" href="#">Next</a></li>
                                 </ul>
                             </nav>
+                        </div>
+                        <div class="row">
+                            <div style="margin-left:75%">
+                                <button type="button" class="btn btn-warning">ยืนยัน</button> 
+                            </div>
                         </div>
                 </div>
                 
