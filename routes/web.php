@@ -28,11 +28,3 @@ Route::get('/add', function(){
 Route::get('/select', function(){
     return view('select');
 });
-
-Route::get('/menu_bar', function(){
-    return view('menu_bar');
-});
-
-Route::get('/nav_bar', function(){
-    return view('nav_bar');
-});
