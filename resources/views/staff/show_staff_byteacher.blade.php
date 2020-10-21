@@ -17,9 +17,117 @@
     <body style="line-height: 0;">
         <div class="container" style="margin-left: 0; margin-top: 0;">
             <div class="row">
-                    @include('menubar_staff')
-
+                @include('menubar_staff')
+                <div class="col" style="margin-left: 18%; margin-top: 0;">
+                    <div class="row">
+                        <div class="col">
+                            <center>
+                            <h1>ตารางสอนรวม</h1>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px;">
+                        <div class="col-6">
+                            <input class="form-control mr-sm-2" type="search" placeholder="ค้นหาชื่ออาจารย์" aria-label="Search">
+                        </div>
+                        <div class="col-2" style="text-align: center;">
+                            <button type="button" class="btn btn-warning" style="margin-left: 372px">ยืนยัน</button>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px;">
+                        <div class="col" style="text-align: center;">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr style="">
+                                        <th>วัน\เวลา</th>
+                                        <th>08:00 - 09:30</th>
+                                        <th>09:30 - 11:00</th>
+                                        <th>11:00 - 12:30</th>
+                                        <th>13:00 - 14:30</th>
+                                        <th>14:30 - 16:00</th>
+                                        <th>16:00 - 17:30</th>
+                                    </tr>
+                                </thead>
+                                <tbody style="">
+                                    <tr> <!------ จันทร์ ------>
+                                        <td><h5>จันทร์</h5></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                    </tr>
+                                    <tr> <!------ อังคาร ------>
+                                        <td><h5>อังคาร</h5></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                    </tr>
+                                    <tr> <!------ พุธ ------>
+                                        <td><h5>พุธ</h5></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr> <!------ พฤหัสบดี ------>
+                                        <td><h5>พฤหัสบดี</h5></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr> <!------ ศุกร์ ------>
+                                        <td><h5>ศุกร์</h5></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        @include('bottom')
     </body>
 </html>
