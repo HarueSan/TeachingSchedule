@@ -17,9 +17,74 @@
     <body style="line-height: 0;">
         <div class="container" style="margin-left: 0; margin-top: 0;">
             <div class="row">
-                    @include('menubar_staff')
-
+                @include('menubar_staff')
+                <div class="col" style="margin-left: 18%; margin-top: 0;">
+                    <div class="row">
+                        <div class="col">
+                            <center>
+                            <h1>ตารางสอนรวม</h1>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px;">
+                        <div class="col">
+                            <select name="furnitureType1" id="" class="form-control">
+                                <option selected>วัน</option>
+                                <option value="1">จันทร์</option>
+                                <option value="2">อังคาร</option>
+                                <option value="3">พุธ</option>
+                                <option value="4">พฤหัสบดี</option>
+                                <option value="5">ศุกร์</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <select name="furnitureType1" id="" class="form-control">
+                                <option selected>ภาคเรียน</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">summer</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <select name="furnitureType1" id="" class="form-control">
+                                <option selected>ปีการศึกษา</option>
+                                <option value="1">2560</option>
+                                <option value="2">2561</option>
+                                <option value="3">2563</option>
+                                <option value="4">2564</option>
+                            </select>
+                        </div>
+                        <div class="col" style="text-align: center;">
+                            <button type="button" class="btn btn-warning" style="margin-left: 140px;">ยืนยัน</button>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px;">
+                        <div class="col" style=" text-align: center;">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>08:00 - 09:30</th>
+                                        <th>09:30 - 11:00</th>
+                                        <th>11:00 - 12:30</th>
+                                        <th>13:00 - 14:30</th>
+                                        <th>14:30 - 16:00</th>
+                                        <th>16:00 - 17:30</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><div class="col">00123</div>
+                                            <div class="col">abcd</div>
+                                            <div class="col">T.....</div>
+                                            <div class="col">Room...</div>
+                                        </td>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        @include('bottom')
     </body>
 </html>
