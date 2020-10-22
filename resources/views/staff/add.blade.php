@@ -11,9 +11,13 @@
     <meta charset="UTF-8">
 
 </head>
-<body>
-    <div class="container">   
-        <div class="row">  
+<body style="line-height: 0;">
+<div class="container">   
+        <div class="row">
+             @include('menubar_staff')
+        </div>
+        <div class="row" style="margin-top: 30px;">  
+        
             <div class="col-2">  
                <!--nav bar -->	 
             </div>
