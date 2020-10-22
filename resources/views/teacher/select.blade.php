@@ -17,6 +17,9 @@
 </head>
 <body>
     <div class="container">   
+        <div class="row">
+            @include('menubar_teacher')
+        </div>
         <div class="row">  
             <div class="col-2">  
                <!--nav bar -->	 
