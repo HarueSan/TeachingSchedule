@@ -60,7 +60,7 @@
             
     <button type="button" class="btn btn-warning"  style="margin-right: 50px;"> เพิ่ม </button>
     <div>
-    <button type="button" class="btn btn-warning"  style="margin-right: 50px;"> แก้ไข </button>
+    <button type="button" class="btn btn-info"  style="margin-right: 50px;"> แก้ไข </button>
     <button type="button" class="btn btn-warning"  style="margin-right: 50px;"> ยืนยัน </button>
     </div>
     </body>

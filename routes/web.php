@@ -50,3 +50,8 @@ Route::get('/select', function(){
 Route::get('/show', function(){
     return view('teacher/show_teacher');
 });
+
+Route::get('/edit', function(){
+    return view('teacher/edithome');
+});
+
