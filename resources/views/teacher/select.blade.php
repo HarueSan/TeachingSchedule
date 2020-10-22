@@ -118,9 +118,18 @@
                             </nav>
                         </div>
                         <div class="row">
-                            <div style="margin-left:75%">
-                                <button type="button" class="btn btn-warning">ยืนยัน</button> 
+                            <div class="col-6">  
+                                <div style="margin-left:110%">
+                                    <button type="button" class="btn btn-warning">ยกเลิก</button>
+                                </div> 
                             </div>
+
+                            <div class="col-5">  
+                                <div style="margin-left:70%">
+                                    <button type="button" class="btn btn-warning">ยืนยัน</button>
+                                </div> 
+                            </div>
+
                         </div>
                 </div>
                 
