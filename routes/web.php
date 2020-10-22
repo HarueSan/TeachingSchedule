@@ -40,18 +40,14 @@ Route::get('/showbydate', function(){
 
 /*---------- Teacher ----------*/
 Route::get('/teacher', function(){
-    return view('teacher/index_teacher');
+    return view('teacher/callindex_teacher');
+});
+
+Route::get('/editteacher', function(){
+    return view('teacher/editteaching');
 });
 
 Route::get('/select', function(){
     return view('teacher/select');
-});
-
-Route::get('/show', function(){
-    return view('teacher/show_teacher');
-});
-
-Route::get('/edit', function(){
-    return view('teacher/edithome');
 });
 
