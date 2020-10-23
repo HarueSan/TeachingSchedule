@@ -26,6 +26,10 @@ Route::get('/add', function(){
     return view('staff/add');
 });
 
+Route::get('/edit', function(){
+    return view('staff/edit_schedual');
+}); /*-----แก้ไขตารางสอน-----*/
+
 Route::get('/manage', function(){
     return view('staff/manage_staff');
 });
@@ -37,6 +41,10 @@ Route::get('/showbyteacher', function(){
 Route::get('/showbydate', function(){
     return view('staff/show_staff_bydate');
 });
+
+Route::get('/view', function(){
+    return view('staff/view_schedual');
+}); /*-----เรียกดูตารางสอน-----*/
 
 /*---------- Teacher ----------*/
 Route::get('/teacher', function(){
