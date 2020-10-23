@@ -17,6 +17,9 @@
 </head>
 <body>
     <div class="container">   
+        <div class="row">
+            @include('menubar_teacher')
+        </div>
         <div class="row">  
             <div class="col-2">  
                <!--nav bar -->	 
@@ -56,7 +59,7 @@
                                                 <th scope="row">201110</th>
                                                 <td>Intergrated Math Sc</td>
                                                 <td><input type="checkbox" aria-label="Checkbox for following text input" 
-                                                style="-webkit-transform: scale(6,2); "></td>
+                                                style="-webkit-transform: scale(3,2); "></td>
                                             
                                             </tr>
 
@@ -64,7 +67,7 @@
                                                 <th scope="row">204100</th>
                                                 <td> IT And Modern Life  </td>
                                                 <td><input type="checkbox" aria-label="Checkbox for following text input" 
-                                                style="-webkit-transform: scale(6,2); "></td>
+                                                style="-webkit-transform: scale(3,2); "></td>
                                                 
                                             </tr>
 
@@ -72,7 +75,7 @@
                                                 <th scope="row">204216</th>
                                                 <td>C Programming</td>
                                                 <td><input type="checkbox" aria-label="Checkbox for following text input" 
-                                                style="-webkit-transform: scale(6,2); "></td>
+                                                style="-webkit-transform: scale(3,2); "></td>
                                                 
                                             </tr>
 
@@ -80,7 +83,7 @@
                                                 <th scope="row">204251</th>
                                                 <td>Data Structure</td>
                                                 <td><input type="checkbox" aria-label="Checkbox for following text input" 
-                                                style="-webkit-transform: scale(6,2); "></td>
+                                                style="-webkit-transform: scale(3,2); "></td>
                                                 
                                             </tr>
 
@@ -88,7 +91,7 @@
                                                 <th scope="row">204341</th>
                                                 <td>Operating System</td>
                                                 <td><input type="checkbox" aria-label="Checkbox for following text input" 
-                                                style="-webkit-transform: scale(6,2); "></td>
+                                                style="-webkit-transform: scale(3,2); "></td>
                                                 
                                             </tr>
 
@@ -96,7 +99,7 @@
                                                 <th scope="row">204453</th>
                                                 <td>Pattern Recognition</td>
                                                 <td><input type="checkbox" aria-label="Checkbox for following text input" 
-                                                style="-webkit-transform: scale(6,2); "></td>
+                                                style="-webkit-transform: scale(3,2); "></td>
                                                 
                                             </tr>
                                     </tbody>
@@ -115,9 +118,18 @@
                             </nav>
                         </div>
                         <div class="row">
-                            <div style="margin-left:75%">
-                                <button type="button" class="btn btn-warning">ยืนยัน</button> 
+                            <div class="col-6">  
+                                <div style="margin-left:110%">
+                                    <button type="button" class="btn btn-warning">ยกเลิก</button>
+                                </div> 
                             </div>
+
+                            <div class="col-5">  
+                                <div style="margin-left:70%">
+                                    <button type="button" class="btn btn-warning">ยืนยัน</button>
+                                </div> 
+                            </div>
+
                         </div>
                 </div>
                 

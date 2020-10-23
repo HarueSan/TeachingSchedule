@@ -14,13 +14,15 @@
     button{
         width:6vw;
     }
-    
-    
     </style>
 </head>
 <body>
-    <div class="container">   
+    <div class="container">  
+        <div class="row">
+            @include('menubar_staff')
+        </div> 
         <div class="row">  
+        
             <div class="col-2">  
                <!--nav bar -->	 
             </div>
