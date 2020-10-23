@@ -17,7 +17,7 @@
     <body style="line-height: 0;">
         <div class="container" style="margin-left: 0; margin-top: 0;">
             <div class="row">
-                    @include('menubar_staff')
+                @include('menubar_staff')
             </div>
         </div>
         <div>
@@ -58,7 +58,7 @@
                     <option value="1234">Lab CSB307</option>
                     <option value="3456">Lab CSB308</option>
             </select>
-            
+
     <button type="button" class="btn btn-warning"  style="margin-right: 50px;"> เพิ่ม </button>
     <div>
     <!-- M -->
@@ -172,7 +172,7 @@
                                             <p>T.....</p>
                                             <p>Room...</p></td>
                                         <td></td>
-                                        
+
                                         <td><p>abcd</p>
                                             <p>T.....</p>
                                             <p>Room...</p></td>
@@ -192,7 +192,7 @@
     </body>
 </html>
     </body>
-</html> 
+</html>
     </div>
     </body>
 </html>

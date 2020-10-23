@@ -23,7 +23,7 @@
                             <i class="fas fa-edit"></i> Select</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/show">
+                            <a class="nav-link" href="/home">
                         <i class="fas fa-calendar-alt"></i> Schedule</a>
                         </li>
                     </ul>

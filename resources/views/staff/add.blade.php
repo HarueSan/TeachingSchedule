@@ -12,22 +12,22 @@
 
 </head>
 <body style="line-height: 0;">
-<div class="container">   
+<div class="container">
         <div class="row">
              @include('menubar_staff')
         </div>
-        <div class="row" style="margin-top: 30px;">  
-        
-            <div class="col-2">  
-               <!--nav bar -->	 
+        <div class="row" style="margin-top: 30px;">
+
+            <div class="col-2">
+               <!--nav bar -->
             </div>
-            <div class="col"> 
-                <div class="row" style="margin-left:15%">  
+            <div class="col">
+                <div class="row" style="margin-left:15%">
                     <div> <h1>เพิ่มกระบวนวิชา</h1> </div>
                 </div>
 
                 <div class="row" style="margin-top:10%"> <!--  select bar -->
-                    <div class="col-3">  
+                    <div class="col-3">
                         <div style="margin-left:50%"><h3>รหัสวิชา</h3></div>
                     </div>
                     <div class="col-3">
@@ -42,7 +42,7 @@
                             </select>
                         </div>
                     </div>
-                        
+
                 </div>
                 <div class="row" style="margin-top:5%">
                     <div class="col-3">
@@ -54,7 +54,7 @@
                                     <option>1</option>
                                     <option>2</option>
                                     <option>3</option>
-                                
+
                                 </select>
                             </div>
                         </div>
@@ -77,8 +77,7 @@
                 </div>
             </div>
         </div>
-                
-
     </div>
+    @include('bottom')
 </body>
 </html>

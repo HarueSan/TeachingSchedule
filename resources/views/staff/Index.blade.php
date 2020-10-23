@@ -17,38 +17,38 @@
     </style>
 </head>
 <body>
-    <div class="container">  
+    <div class="container">
         <div class="row">
             @include('menubar_staff')
-        </div> 
-        <div class="row">  
-        
-            <div class="col-2">  
-               <!--nav bar -->	 
+        </div>
+        <div class="row">
+
+            <div class="col-2">
+               <!--nav bar -->
             </div>
-            <div class="col"> 
-                <div class="row" style="margin-left:15%">  
+            <div class="col">
+                <div class="row" style="margin-left:15%">
                     <div> <h1>จัดการกระบวนวิชา</h1>  </div>
                 </div>
-                <div class="row">   
+                <div class="row">
                 <!--  ค้นหา  -->
-                    
-                    <div class="col-5">  
-                        <div> 
+
+                    <div class="col-5">
+                        <div>
                             <div class="active-pink-3 active-pink-4 mb-4">
                                 <input class="form-control" type="text" placeholder="Search" aria-label="Search">
                             </div>
-                        </div> 
-                    </div>	
-                    <div class="col-6">   
-                        <button type="button" class="btn btn-warning">ค้นหา</button> 
-                        <button type="button" class="btn btn-warning" 
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn-warning">ค้นหา</button>
+                        <button type="button" class="btn btn-warning"
                         style="margin-left: 30px;">เพิ่ม</button>
                     </div>
                 </div>
                 <div class="row">  <!--ตาราง  -->
-                    <div class="col">   
-                        <div>   
+                    <div class="col">
+                        <div>
                                 <table class="table" style="margin-top: 30px;">
                                     <thead class="thead-dark">
                                         <tr>
@@ -58,7 +58,7 @@
                                             <th scope="col"></th>
                                         </tr>
                                     </thead>
-                                
+
                                     <tbody>
                                             <tr class="bg-light">
                                                 <th scope="row">201110</th>
@@ -102,7 +102,7 @@
                                                 <td><button type="button" class="btn btn-primary" >ลบ</button></td>
                                             </tr>
                                     </tbody>
-                                
+
                             </table>
                         </div>
                         <div class="row">  <!--เปลี่ยนหน้า  -->
@@ -117,8 +117,9 @@
                             </nav>
                         </div>
                 </div>
-                
+
 
     </div>
+    @include('bottom')
 </body>
 </html>

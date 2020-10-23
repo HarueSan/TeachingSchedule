@@ -17,7 +17,7 @@
     <body style="line-height: 0;">
         <div class="container" style="margin-left: 0; margin-top: 0;">
             <div class="row">
-                    @include('menubar_staff')
+                    @include('menubar_teacher')
             </div>
         </div>
         <center>

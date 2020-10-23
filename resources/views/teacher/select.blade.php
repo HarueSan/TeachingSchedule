@@ -16,35 +16,35 @@
     </style>
 </head>
 <body>
-    <div class="container">   
+    <div class="container">
         <div class="row">
             @include('menubar_teacher')
         </div>
-        <div class="row">  
-            <div class="col-2">  
-               <!--nav bar -->	 
+        <div class="row">
+            <div class="col-2">
+               <!--nav bar -->
             </div>
-            <div class="col"> 
-                <div class="row" style="margin-left:15%">  
+            <div class="col">
+                <div class="row" style="margin-left:15%">
                     <div> <h1>เลือกกระบวนวิชาที่ต้องการสอน</h1>  </div>
                 </div>
-                <div class="row">   
+                <div class="row">
                 <!--  ค้นหา  -->
-                    
-                    <div class="col-5">  
-                        <div> 
+
+                    <div class="col-5">
+                        <div>
                             <div class="active-pink-3 active-pink-4 mb-4">
                                 <input class="form-control" type="text" placeholder="Search" aria-label="Search">
                             </div>
-                        </div> 
-                    </div>	
-                    <div class="col-6">   
-                        <button type="button" class="btn btn-warning">ค้นหา</button> 
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn-warning">ค้นหา</button>
                     </div>
                 </div>
                 <div class="row">  <!--ตาราง  -->
-                    <div class="col">   
-                        <div>   
+                    <div class="col">
+                        <div>
                                 <table class="table" style="margin-top: 30px;">
                                     <thead class="thead-dark">
                                         <tr>
@@ -53,57 +53,57 @@
                                             <th scope="col">เลือก</th>
                                         </tr>
                                     </thead>
-                                
+
                                     <tbody>
                                             <tr class="bg-light">
                                                 <th scope="row">201110</th>
                                                 <td>Intergrated Math Sc</td>
-                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input"
                                                 style="-webkit-transform: scale(3,2); "></td>
-                                            
+
                                             </tr>
 
                                             <tr class="bg-light">
                                                 <th scope="row">204100</th>
                                                 <td> IT And Modern Life  </td>
-                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input"
                                                 style="-webkit-transform: scale(3,2); "></td>
-                                                
+
                                             </tr>
 
                                             <tr class="bg-light">
                                                 <th scope="row">204216</th>
                                                 <td>C Programming</td>
-                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input"
                                                 style="-webkit-transform: scale(3,2); "></td>
-                                                
+
                                             </tr>
 
                                             <tr class="bg-light">
                                                 <th scope="row">204251</th>
                                                 <td>Data Structure</td>
-                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input"
                                                 style="-webkit-transform: scale(3,2); "></td>
-                                                
+
                                             </tr>
 
                                             <tr class="bg-light">
                                                 <th scope="row">204341</th>
                                                 <td>Operating System</td>
-                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input"
                                                 style="-webkit-transform: scale(3,2); "></td>
-                                                
+
                                             </tr>
 
                                             <tr class="bg-light">
                                                 <th scope="row">204453</th>
                                                 <td>Pattern Recognition</td>
-                                                <td><input type="checkbox" aria-label="Checkbox for following text input" 
+                                                <td><input type="checkbox" aria-label="Checkbox for following text input"
                                                 style="-webkit-transform: scale(3,2); "></td>
-                                                
+
                                             </tr>
                                     </tbody>
-                                
+
                             </table>
                         </div>
                         <div class="row">  <!--เปลี่ยนหน้า  -->
@@ -118,22 +118,23 @@
                             </nav>
                         </div>
                         <div class="row">
-                            <div class="col-6">  
+                            <div class="col-6">
                                 <div style="margin-left:110%">
                                     <button type="button" class="btn btn-warning">ยกเลิก</button>
-                                </div> 
+                                </div>
                             </div>
 
-                            <div class="col-5">  
+                            <div class="col-5">
                                 <div style="margin-left:70%">
                                     <button type="button" class="btn btn-warning">ยืนยัน</button>
-                                </div> 
+                                </div>
                             </div>
 
                         </div>
                 </div>
-                
+
 
     </div>
+    @include('bottom')
 </body>
 </html>
