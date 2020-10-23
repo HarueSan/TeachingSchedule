@@ -1,7 +1,10 @@
+<!-- M -->
+<!DOCTYPE html>
+<html lang="en">
 <html>
     <br>
     <head>
-    <title>Manage -Staff</title>
+    <title>Show by date -Staff</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -14,26 +17,51 @@
     <body style="line-height: 0;">
         <div class="container" style="margin-left: 0; margin-top: 0;">
             <div class="row">
-                    @include('menubar_staff')
-            </div>
-        </div>
-        <center>
-        <body><h1 style="margin-top: 30px; margin-bottom: 30px;">ตารางจัดการสอน</h1>
-        </body>
-        </center>
-        <div class="row" style="margin-top: 5px;">
-            <div class="col-2">
-            </div>
-    <body style="line-height: 0;">
-        <div class="container" style="margin-left: 8%; margin-top: 0;">
-           <div class="row">
+                @include('menubar_staff')
                 <div class="col" style="margin-left: 18%; margin-top: 0;">
+                    <div class="row">
+                        <div class="col">
+                            <center>
+                            <h1>ตารางสอนรวม</h1>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px;">
+                        <div class="col">
+                            <select name="furnitureType1" id="" class="form-control">
+                                <option selected>วัน</option>
+                                <option value="1">จันทร์</option>
+                                <option value="2">อังคาร</option>
+                                <option value="3">พุธ</option>
+                                <option value="4">พฤหัสบดี</option>
+                                <option value="5">ศุกร์</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <select name="furnitureType1" id="" class="form-control">
+                                <option selected>ภาคเรียน</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <select name="furnitureType1" id="" class="form-control">
+                                <option selected>ปีการศึกษา</option>
+                                <option value="1">2560</option>
+                                <option value="2">2561</option>
+                                <option value="3">2563</option>
+                                <option value="4">2564</option>
+                            </select>
+                        </div>
+                        <div class="col" style="text-align: center;">
+                            <button type="button" class="btn btn-warning" style="margin-left: 140px;">ยืนยัน</button>
+                        </div>
+                    </div>
                     <div class="row" style="margin-top: 30px;">
                         <div class="col" style="text-align: center;">
                             <table class="table">
                                 <thead class="thead-dark">
                                     <tr style="">
-                                        <th>วัน\เวลา</th>
                                         <th>08:00 - 09:30</th>
                                         <th>09:30 - 11:00</th>
                                         <th>11:00 - 12:30</th>
@@ -43,20 +71,86 @@
                                     </tr>
                                 </thead>
                                 <tbody style="">
-                                    <tr> <!------ จันทร์ ------>
-                                        <td><h5>จันทร์</h5></td>
+                                    <tr> <!------ แถว1 ------>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
                                     </tr>
-                                    <tr> <!------ อังคาร ------>
-                                        <td><h5>อังคาร</h5></td>
+                                    <tr> <!------ แถว2 ------>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
                                     </tr>
-                                    <tr> <!------ พุธ ------>
-                                        <td><h5>พุธ</h5></td>
+                                    <tr> <!------ แถว3 ------>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
                                     </tr>
-                                    <tr> <!------ พฤหัสบดี ------>
-                                        <td><h5>พฤหัสบดี</h5></td>
+                                    <tr> <!------ แถว4 ------>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
-                                    <tr> <!------ ศุกร์ ------>
-                                        <td><h5>ศุกร์</h5></td>
+                                    <tr> <!------ แถว5 ------>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                    </tr>
+                                    <tr> <!------ แถว6 ------>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -68,10 +162,3 @@
         @include('bottom')
     </body>
 </html>
-    </body>
-</html> 
-    </div>
-    </body>
-</html>
-
-

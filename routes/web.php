@@ -1,5 +1,4 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,27 +11,28 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-/*---------- All ----------*/
+
+/*-------------------- All --------------------*/
 Route::get('/login', function(){
     return view('login');
 });
 
-/*---------- Staff ----------*/
+/*-------------------- Staff --------------------*/
 Route::get('/staff', function () {
     return view('staff/index');
-});
+}); /*-----จัดการกระบวนวิชา -----*/
 
 Route::get('/add', function(){
     return view('staff/add');
 });
 
-Route::get('/edit', function(){
-    return view('staff/edit_schedual');
-}); /*-----แก้ไขตารางจัดการสอน-----*/
-
 Route::get('/manage', function(){
     return view('staff/manage_staff');
 }); /*-----ตารางจัดการสอน-----*/
+
+Route::get('/edit', function(){
+    return view('staff/edit_schedual');
+}); /*-----แก้ไขตารางจัดการสอน-----*/
 
 Route::get('/showbyteacher', function(){
     return view('staff/show_staff_byteacher');
@@ -42,10 +42,10 @@ Route::get('/showbydate', function(){
     return view('staff/show_staff_bydate');
 });
 
-/*---------- Teacher ----------*/
+/*-------------------- Teacher --------------------*/
 Route::get('/teacher', function(){
     return view('teacher/callindex_teacher');
-});
+}); /*-----ตารางสอนของตัวอาจารย์คนเดียว -----*/
 
 Route::get('/select', function(){
     return view('teacher/select');
@@ -53,4 +53,4 @@ Route::get('/select', function(){
 
 Route::get('/home', function(){
     return view('teacher/home_showschedualteacher');
-}); /*-----อาจารย์เรียกดูตารางสอนของตนเองตารางสอน-----*/
+}); /*-----ตารางสอนรวม -----*/

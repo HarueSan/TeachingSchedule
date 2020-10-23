@@ -23,12 +23,24 @@
                         <div class="col">
                             <center>
                             <h1>ตารางสอนรวม</h1>
+                            <p>เรียกดูจากชื่อของอาจารย์</p>
                             </center>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 30px;">
                         <div class="col-6">
-                            <input class="form-control mr-sm-2" type="search" placeholder="ค้นหาชื่ออาจารย์" aria-label="Search">
+                        <select name="furnitureType1" id="" class="form-control">
+                                <option selected>อาจารย์</option>
+                                <option value="1">ผู้ช่วยศาสตราจารย์ ดร.ดุษฎี ประเสริฐธิติพงษ์</option>
+                                <option value="2">รองศาสตราจารย์ ดร.จีรยุทธ ไชยจารุวณิช</option>
+                                <option value="3">อาจารย์ ดร.รัศมีทิพย์ วิตา </option>
+                                <option value="4">ผู้ช่วยศาสตราจารย์ ดร.จักริน ชวชาติ </option>
+                                <option value="5">ผู้ช่วยศาสตราจารย์ ดร.ศุภกิจ อาวิพันธุ์ </option>
+                                <option value="1">ผู้ช่วยศาสตราจารย์ ดร.เมทินี เขียวกันยะ</option>
+                                <option value="2">อาจารย์ ดร.วิจักษณ์ ศรีสัจจะเลิศวาจา </option>
+                                <option value="3">อาจารย์ ดร.วรวุฒิ ศรีสุขคำ</option>
+                                <option value="4">ผู้ช่วยศาสตราจารย์ ดร.ชุมพล บุญคุ้มพรภัทร </option>
+                            </select>
                         </div>
                         <div class="col-2" style="text-align: center;">
                             <button type="button" class="btn btn-warning" style="margin-left: 372px">ยืนยัน</button>

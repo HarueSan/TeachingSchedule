@@ -23,6 +23,7 @@
                         <div class="col">
                             <center>
                             <h1>ตารางสอนรวม</h1>
+                            <p>เรียกดูจากวัน ภาคเรียนและปีการศึกษา</p>
                             </center>
                         </div>
                     </div>
@@ -42,7 +43,6 @@
                                 <option selected>ภาคเรียน</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
-                                <option value="3">summer</option>
                             </select>
                         </div>
                         <div class="col">
@@ -59,10 +59,10 @@
                         </div>
                     </div>
                     <div class="row" style="margin-top: 30px;">
-                        <div class="col" style=" text-align: center;">
+                        <div class="col" style="text-align: center;">
                             <table class="table">
                                 <thead class="thead-dark">
-                                    <tr>
+                                    <tr style="">
                                         <th>08:00 - 09:30</th>
                                         <th>09:30 - 11:00</th>
                                         <th>11:00 - 12:30</th>
@@ -71,13 +71,88 @@
                                         <th>16:00 - 17:30</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><div class="col">00123</div>
-                                            <div class="col">abcd</div>
-                                            <div class="col">T.....</div>
-                                            <div class="col">Room...</div>
-                                        </td>
+                                <tbody style="">
+                                    <tr> <!------ แถว1 ------>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                    </tr>
+                                    <tr> <!------ แถว2 ------>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                    </tr>
+                                    <tr> <!------ แถว3 ------>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr> <!------ แถว4 ------>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr> <!------ แถว5 ------>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                    </tr>
+                                    <tr> <!------ แถว6 ------>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><p>00123</p>
+                                            <p>abcd</p>
+                                            <p>T.....</p>
+                                            <p>Room...</p></td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
