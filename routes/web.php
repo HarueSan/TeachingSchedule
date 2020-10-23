@@ -51,4 +51,6 @@ Route::get('/select', function(){
     return view('teacher/select');
 });
 
-
+Route::get('/home', function(){
+    return view('teacher/home_showschedualteacher');
+}); /*-----อาจารย์เรียกดูตารางสอนของตนเองตารางสอน-----*/
