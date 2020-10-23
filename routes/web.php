@@ -28,11 +28,11 @@ Route::get('/add', function(){
 
 Route::get('/edit', function(){
     return view('staff/edit_schedual');
-}); /*-----แก้ไขตารางสอน-----*/
+}); /*-----แก้ไขตารางจัดการสอน-----*/
 
 Route::get('/manage', function(){
     return view('staff/manage_staff');
-});
+}); /*-----ตารางจัดการสอน-----*/
 
 Route::get('/showbyteacher', function(){
     return view('staff/show_staff_byteacher');
