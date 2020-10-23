@@ -26,15 +26,7 @@
         </center>
         <div class="row" style="margin-top: 30px;">
             <div class="col-6">
-                <select name="timeType1" id="" class="form-control" style="margin-left: 400px;width:fit-content";>
-                    <option selected>เรียกดู</option>
-                        <option value="1234">ชื่ออาจารย์ผู้สอน</option>
-                        <option value="3456">รหัสวิชา</option>
-                </select>
             </div>
-        <div class="col-2" style="text-align: center;">
-            <button type="button" class="btn btn-warning" style="margin-left: 300px">เพิ่ม</button>
-        </div>
     <body style="line-height: 0;">
         <div class="container" style="margin-left: 8%; margin-top: 0;">
            <div class="row">
@@ -61,21 +53,10 @@
                                             <p>abcd</p>
                                             <p>T.....</p>
                                             <p>Room...</p></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td><p>00123</p>
-                                            <p>abcd</p>
-                                            <p>T.....</p>
-                                            <p>Room...</p></td>
                                     </tr>
                                     <tr> <!------ อังคาร ------>
                                         <td><h5>อังคาร</h5></td>
-                                        <td><p>00123</p>
-                                            <p>abcd</p>
-                                            <p>T.....</p>
-                                            <p>Room...</p></td>
-                                        <td></td>
+                    
                                         <td></td>
                                         <td></td>
                                         <td></td>
@@ -83,6 +64,8 @@
                                             <p>abcd</p>
                                             <p>T.....</p>
                                             <p>Room...</p></td>
+                                            <td></td>
+                                        <td></td>
                                     </tr>
                                     <tr> <!------ พุธ ------>
                                         <td><h5>พุธ</h5></td>
@@ -103,10 +86,7 @@
                                             <p>abcd</p>
                                             <p>T.....</p>
                                             <p>Room...</p></td>
-                                        <td><p>00123</p>
-                                            <p>abcd</p>
-                                            <p>T.....</p>
-                                            <p>Room...</p></td>
+                                        <td></td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
