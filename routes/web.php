@@ -42,20 +42,13 @@ Route::get('/showbydate', function(){
     return view('staff/show_staff_bydate');
 });
 
-Route::get('/view', function(){
-    return view('staff/view_schedual');
-}); /*-----เรียกดูตารางสอน-----*/
-
 /*---------- Teacher ----------*/
 Route::get('/teacher', function(){
     return view('teacher/callindex_teacher');
 });
 
-Route::get('/editteacher', function(){
-    return view('teacher/editteaching');
-});
-
 Route::get('/select', function(){
     return view('teacher/select');
 });
+
 
