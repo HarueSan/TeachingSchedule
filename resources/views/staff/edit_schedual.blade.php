@@ -203,7 +203,6 @@
     </body>
 </html>
     </div>
-    @include('bottom')
     </body>
 </html>
 
